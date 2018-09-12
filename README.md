@@ -3,7 +3,7 @@
 
 **Versão do Ruby: Minímo na 2.3**
 
-**Verso do Rails: Mínimo na 5.0**
+**Versão do Rails: Mínimo na 5.0**
 
 **Banco de Dados: Postgresql**
 
@@ -42,12 +42,14 @@ O objetivo do teste é criar um pequeno sistema de controle de conta bancária.
 7- UPDATED: Fazer um fork ou mesmo um projeto novo e enviar o link do mesmo (para evitarmos que alguém copie o código do outro)
 
 **Itens não obrigatórios mas que contarão como diferenciais:**
-
+  
+  * Para login e autenticação do sistema, usar a gem devise;
+  
   * Usar Bootstrap ou Material Design nas views;
   
   * Usar frameworks javascript para melhorar a interação do usuário com os cadastros que deve realizar;
   
-  * Utilizar testes;
+  * Utilizar testes, Rspec preferencialmente ou outro;
   
   * Publicar no Heroku.
 
