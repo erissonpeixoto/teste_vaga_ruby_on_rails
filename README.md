@@ -26,7 +26,7 @@ O objetivo do teste é criar um pequeno sistema de controle de conta bancária.
   
   * Contas Bancárias (Agência Bancária(belongs_to), Número da Conta(string), Limite(decimal))
   
-  * Movimentações da Conta (Conta Bancária(belongs_to), Data da Movimentação(date), Valor(decimal), Tipo de Movimentação(enum -> Saque, Depósito, estorno), Usuário(belongs_to))
+  * Movimentações da Conta (Conta Bancária(belongs_to), Data da Movimentação(date), Valor(decimal), Tipo de Movimentação(enum -> saque, Depósito, estorno, transferência), Usuário(belongs_to))
   
   obs.: todos os campos são obrigatórios e devem ter telas para possibilitar o cadastro a edição e a exclusão.
 
