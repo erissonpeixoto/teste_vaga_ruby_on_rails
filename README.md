@@ -9,7 +9,7 @@
 
 PRAZO PARA ENVIO
 ----------------
-12/09/2018
+01/06/2020
 
 
 INSTRUÇÕES
@@ -22,16 +22,17 @@ O objetivo do teste é criar um pequeno sistema de controle de conta bancária.
 
   * Usuários (login, senha)
   
-  * Agências Bancárias (Número da Agência, Endereço)
+  * Agências Bancárias (Número da Agência(string), Endereço(text))
   
-  * Contas Bancárias (Agência Bancária, Número da Conta, Limite)
+  * Contas Bancárias (Agência Bancária(belongs_to), Número da Conta(string), Limite(decimal))
   
-  * Movimentações da Conta (Conta Bancária, Data da Movimentação, Valor, Tipo de Movimentação, Usuário)
+  * Movimentações da Conta (Conta Bancária(belongs_to), Data da Movimentação(date), Valor(decimal), Tipo de Movimentação(enum -> Saque, Depósito, estorno), Usuário(belongs_to))
   
   obs.: todos os campos são obrigatórios e devem ter telas para possibilitar o cadastro a edição e a exclusão.
 
 
 3- Deve ser possível registrar depósitos, saques, estornos e transferências entre contas;
+   obs.: para realizar transferências entre contas, O modelo de Movimentações da Conta precisa ter dois belongs_to Conta        Bancária origem e destino.
 
 4- Não deve ser possível excluir uma movimentação bancária;
 
